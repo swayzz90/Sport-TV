@@ -1,0 +1,48 @@
+name: Dane — aktualizacja
+
+on:
+  schedule:
+    - cron: "10 4 * * *"   # täglich 04:10 UTC (05:10/06:10 polnische Zeit)
+  workflow_dispatch:        # manuell startbar: Actions -> "Dane — aktualizacja" -> Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: fetcher/requirements.txt
+
+      - run: pip install -r fetcher/requirements.txt
+
+      - name: Tests
+        run: python -m unittest discover -s tests
+
+      - name: Termine holen
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python fetcher/build.py
+
+      - name: Commit, falls sich etwas geändert hat
+        run: |
+          git config user.name "sport-tv-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/events.json
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Dane: aktualizacja $(date -u +%F)"
+            git push
+          fi

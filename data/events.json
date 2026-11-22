@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-11-22T09:24:27+00:00",
+  "timezone": "Europe/Warsaw",
+  "window_days": 14,
+  "sources": {
+    "seed:football": "ok (0)",
+    "seed:motogp": "ok (18)",
+    "seed:skijumping": "ok (39)",
+    "api_football": "übersprungen: kein API_FOOTBALL_KEY gesetzt"
+  },
+  "events": [
+    {
+      "id": "skoki-2026-11-22-lillehammer",
+      "sport": "skoki",
+      "competition": "Puchar Świata",
+      "title": "Lillehammer — konkurs indywidualny",
+      "date": "2026-11-22",
+      "start": "2026-11-22T16:00:00+01:00",
+      "venue": null,
+      "country": false,
+      "poland": false,
+      "channels": [
+        "Eurosport 1",
+        "TVN"
+      ],
+      "online": [
+        "Player",
+        "HBO Max"
+      ],
+      "note": null
+    },
+    {
+      "id": "motogp-2026-11-28-walencja",
+      "sport": "motogp",
+      "competition": "MotoGP",
+      "title": "Walencja — kwalifikacje",
+      "date": "2026-11-28",
+      "start": "2026-11-28T10:50:00+01:00",
+      "venue": "Circuit Ricardo Tormo, Walencja (ESP)",
+      "country": "ES",
+      "poland": false,
+      "channels": [
+        "Polsat Sport Premium 2",
+        "Super Polsat"
+      ],
+      "online": [
+        "Polsat Box Go",
+        "polsatsport.pl"
+      ],
+      "note": null
+    },
+    {
+      "id": "motogp-2026-11-28-walencja-wyscig-sprinterski",
+      "sport": "motogp",
+      "competition": "MotoGP",
+      "title": "Walencja — wyścig sprinterski",
+      "date": "2026-11-28",
+      "start": "2026-11-28T15:00:00+01:00",
+      "venue": "Circuit Ricardo Tormo, Walencja (ESP)",
+      "country": "ES",
+      "poland": false,
+      "channels": [
+        "Polsat Sport Premium 2",
+        "Super Polsat"
+      ],
+      "online": [
+        "Polsat Box Go",
+        "polsatsport.pl"
+      ],
+      "note": null
+    },
+    {
+      "id": "skoki-2026-11-28-kuusamo",
+      "sport": "skoki",
+      "competition": "Puchar Świata",
+      "title": "Kuusamo — konkurs indywidualny",
+      "date": "2026-11-28",
+      "start": "2026-11-28T16:30:00+01:00",
+      "venue": "Finlandia",
+      "country": "FI",
+      "poland": false,
+      "channels": [
+        "Eurosport 1",
+        "TVN"
+      ],
+      "online": [
+        "Player",
+        "HBO Max"
+      ],
+      "note": null
+    },
+    {
+      "id": "motogp-2026-11-29-walencja",
+      "sport": "motogp",
+      "competition": "MotoGP",
+      "title": "Walencja — wyścig",
+      "date": "2026-11-29",
+      "start": "2026-11-29T14:00:00+01:00",
+      "venue": "Circuit Ricardo Tormo, Walencja (ESP)",
+      "country": "ES",
+      "poland": false,
+      "channels": [
+        "Polsat Sport Premium 2",
+        "Super Polsat"
+      ],
+      "online": [
+        "Polsat Box Go",
+        "polsatsport.pl"
+      ],
+      "note": null
+    },
+    {
+      "id": "skoki-2026-11-29-kuusamo",
+      "sport": "skoki",
+      "competition": "Puchar Świata",
+      "title": "Kuusamo — konkurs indywidualny",
+      "date": "2026-11-29",
+      "start": "2026-11-29T14:20:00+01:00",
+      "venue": "Finlandia",
+      "country": "FI",
+      "poland": false,
+      "channels": [
+        "Eurosport 1",
+        "TVN"
+      ],
+      "online": [
+        "Player",
+        "HBO Max"
+      ],
+      "note": null
+    },
+    {
+      "id": "skoki-2026-12-05-wisla",
+      "sport": "skoki",
+      "competition": "Puchar Świata",
+      "title": "Wisła — konkurs indywidualny",
+      "date": "2026-12-05",
+      "start": "2026-12-05T16:00:00+01:00",
+      "venue": "Polska",
+      "country": "PL",
+      "poland": false,
+      "channels": [
+        "Eurosport 1",
+        "TVN",
+        "TVP"
+      ],
+      "online": [
+        "Player",
+        "HBO Max"
+      ],
+      "note": null
+    },
+    {
+      "id": "skoki-2026-12-06-wisla",
+      "sport": "skoki",
+      "competition": "Puchar Świata",
+      "title": "Wisła — konkurs indywidualny",
+      "date": "2026-12-06",
+      "start": "2026-12-06T15:40:00+01:00",
+      "venue": "Polska",
+      "country": "PL",
+      "poland": false,
+      "channels": [
+        "Eurosport 1",
+        "TVN",
+        "TVP"
+      ],
+      "online": [
+        "Player",
+        "HBO Max"
+      ],
+      "note": null
+    }
+  ]
+}

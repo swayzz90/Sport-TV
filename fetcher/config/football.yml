@@ -1,0 +1,15 @@
+# Konfiguration für providers/api_football.py
+# poland_team_id: API-Football-ID der polnischen Männer-A-Nationalmannschaft (24).
+#   Falls der erste Lauf keine Polen-Spiele findet: ID prüfen mit
+#   https://v3.football.api-sports.io/teams?search=poland  (national: true, ohne "W"/"U..")
+poland_team_id: 24
+
+leagues:
+  # all_matches: true  -> ALLE Spiele des Wettbewerbs (auch ohne Polen)
+  # all_matches: false -> nur Spiele mit Polen (kommen ohnehin über die Team-Abfrage)
+  - { id: 1,   key: world_cup,           name: "Mistrzostwa Świata",        all_matches: true }
+  - { id: 4,   key: euro,                name: "Mistrzostwa Europy",        all_matches: true }
+  - { id: 5,   key: nations_league,      name: "Liga Narodów UEFA",         all_matches: true }
+  - { id: 32,  key: wc_qualifiers_uefa,  name: "Eliminacje MŚ",             all_matches: false }
+  - { id: 960, key: euro_qualifiers,     name: "Eliminacje ME",             all_matches: false }
+  - { id: 10,  key: friendly,            name: "Mecz towarzyski",           all_matches: false }

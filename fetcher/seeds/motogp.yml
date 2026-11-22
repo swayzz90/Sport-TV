@@ -1,0 +1,34 @@
+# MotoGP – Startbestand. Zeiten = polnische Zeit (CET).
+#
+# Valencia 2026: Quellen widersprechen sich (20.-22.11. vs. 27.-29.11.). Nach der
+# Verschiebung von Katar auf 6.-8.11. gilt 27.-29.11. (Rennen Sonntag 29.11., 14:00).
+# Zeiten laut sport-flash.com; Sender dort: Super Polsat (zusätzlich zu Polsat Sport Premium 2).
+#
+# 2027: Kalender der FIM/MotoGP vom 25.09.2026, nur die Rennen, deren Termin sicher belegt ist.
+# Uhrzeiten werden später ergänzt (time: null).
+
+defaults:
+  sport: motogp
+  competition: "MotoGP"
+
+events:
+  - { date: 2026-11-28, time: "10:50", city: "Walencja", country: ES, kind: "kwalifikacje", venue: "Circuit Ricardo Tormo, Walencja (ESP)", channels: ["Polsat Sport Premium 2", "Super Polsat"] }
+  - { date: 2026-11-28, time: "15:00", city: "Walencja", country: ES, kind: "wyścig sprinterski", venue: "Circuit Ricardo Tormo, Walencja (ESP)", channels: ["Polsat Sport Premium 2", "Super Polsat"] }
+  - { date: 2026-11-29, time: "14:00", city: "Walencja", country: ES, kind: "wyścig", venue: "Circuit Ricardo Tormo, Walencja (ESP)", channels: ["Polsat Sport Premium 2", "Super Polsat"] }
+
+  # --- 2027 (nur Rennsonntage, Zeiten folgen) ---
+  - { date: 2027-03-07, time: null, city: "Buriram", country: TH, kind: "wyścig – GP Tajlandii", venue: "Chang International Circuit, Buriram (THA)" }
+  - { date: 2027-03-14, time: null, city: "Lusail", country: QA, kind: "wyścig – GP Kataru", venue: "Lusail International Circuit (QAT)" }
+  - { date: 2027-04-11, time: null, city: "Buenos Aires", country: AR, kind: "wyścig – GP Argentyny", venue: "Autódromo Oscar y Juan Gálvez, Buenos Aires (ARG)" }
+  - { date: 2027-04-25, time: null, city: "Austin", country: US, kind: "wyścig – GP USA", venue: "Circuit of the Americas, Austin (USA)" }
+  - { date: 2027-05-09, time: null, city: "Jerez", country: ES, kind: "wyścig – GP Hiszpanii", venue: "Circuito de Jerez, Jerez de la Frontera (ESP)" }
+  - { date: 2027-05-16, time: null, city: "Le Mans", country: FR, kind: "wyścig – GP Francji", venue: "Bugatti Circuit, Le Mans (FRA)" }
+  - { date: 2027-05-30, time: null, city: "Mugello", country: IT, kind: "wyścig – GP Włoch", venue: "Mugello Circuit, Scarperia (ITA)" }
+  - { date: 2027-06-13, time: null, city: "Montmeló", country: ES, kind: "wyścig – GP Katalonii", venue: "Circuit de Barcelona-Catalunya (ESP)" }
+  - { date: 2027-06-27, time: null, city: "Assen", country: NL, kind: "wyścig – GP Holandii", venue: "TT Circuit Assen (NED)" }
+  - { date: 2027-07-11, time: null, city: "Sachsenring", country: DE, kind: "wyścig – GP Niemiec", venue: "Sachsenring, Hohenstein-Ernstthal (GER)" }
+  - { date: 2027-07-18, time: null, city: "Brno", country: CZ, kind: "wyścig – GP Czech", venue: "Automotodrom Brno (CZE)" }
+  - { date: 2027-08-15, time: null, city: "Silverstone", country: GB, kind: "wyścig – GP Wielkiej Brytanii", venue: "Silverstone Circuit (GBR)" }
+  - { date: 2027-09-19, time: null, city: "Alcañiz", country: ES, kind: "wyścig – GP Aragonii", venue: "MotorLand Aragón, Alcañiz (ESP)" }
+  - { date: 2027-11-14, time: null, city: "Adelaide", country: AU, kind: "wyścig – GP Australii", venue: "Adelaide Street Circuit (AUS)" }
+  - { date: 2027-11-28, time: null, city: "Walencja", country: ES, kind: "wyścig – GP Walencji", venue: "Circuit Ricardo Tormo, Walencja (ESP)" }

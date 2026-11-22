@@ -1,0 +1,15 @@
+# Manuelle Fußball-Termine (Fallback, falls die API nichts liefert oder kein Key gesetzt ist).
+# Beispiel Länderspiel Polens:
+#
+# - date: 2027-03-26
+#   time: "20:45"
+#   home: "Polska"
+#   away: "Gegner"
+#   competition: "Mecz towarzyski"
+#   competition_key: friendly
+#   venue: "PGE Narodowy, Warszawa"
+#   poland: true
+#
+# Turniere (MŚ/ME/Igrzyska): competition_key = world_cup | euro | olympics
+
+events: []

@@ -1,0 +1,42 @@
+# Regeln: Welcher Termin läuft auf welchem polnischen Sender?
+# Die ERSTE passende Regel mit "channels" gewinnt.
+# Regeln mit "add_channels" werden zusätzlich auf alle passenden Termine angewendet.
+# Einzelne Termine lassen sich in overrides.yml korrigieren.
+#
+# Stand der Recherche: 22.11.2026. Senderechte ändern sich -> bei Zweifel hier anpassen.
+
+rules:
+  # --- Fußball: Spiele Polens (nur Männer-Nationalmannschaft) ---
+  # TVP hat die Rechte an allen Länderspielen Polens bis Ende 2028.
+  - match: { sport: pilka, poland: true }
+    channels: ["TVP Sport", "TVP 1"]
+    online: ["sport.tvp.pl", "aplikacja TVP Sport"]
+
+  # --- Fußball: Weltmeisterschaft (TVP zeigt alle Spiele) ---
+  - match: { sport: pilka, competition_key: world_cup }
+    channels: ["TVP Sport", "TVP 1"]
+    online: ["sport.tvp.pl", "aplikacja TVP Sport"]
+
+  # --- Fußball: Nations League ohne Polen (Polsat) ---
+  - match: { sport: pilka, competition_key: nations_league }
+    channels: ["Polsat Sport"]
+    online: ["Polsat Box Go", "polsatsport.pl"]
+
+  # --- Skispringen Weltcup / WM (Männer) ---
+  - match: { sport: skoki }
+    channels: ["Eurosport 1", "TVN"]
+    online: ["Player", "HBO Max"]
+
+  # Heimweltcups in Polen laufen zusätzlich bei TVP
+  - match: { sport: skoki, country: PL }
+    add_channels: ["TVP"]
+
+  # --- MotoGP ---
+  - match: { sport: motogp }
+    channels: ["Polsat Sport Premium 2"]
+    online: ["Polsat Box Go", "polsatsport.pl"]
+
+# Wenn keine Regel passt (z. B. EM, Olympia): ehrlich "unbekannt" anzeigen.
+fallback:
+  channels: []
+  note: "Sprawdź program TV"

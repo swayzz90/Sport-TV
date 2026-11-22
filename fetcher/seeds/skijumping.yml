@@ -1,0 +1,51 @@
+# Puchar Świata w skokach narciarskich 2026/27 (mężczyźni) + MŚ Falun 2027.
+# Quelle: Flashscore.pl (Kalender mit Uhrzeiten); ergänzt um Falun 27.02 (Red Bull).
+# Zeiten = polnische Zeit. time: null -> "godzina wkrótce" (noch nicht veröffentlicht).
+# Der Red-Bull-Kalender nennt für Vikersund/Oslo abweichende Daten, die dort selbst als
+# widersprüchlich markiert sind; hier gelten die Flashscore-Daten.
+# Nur Männer (Mixed-Team-Wettbewerbe enthalten Männer und sind drin).
+
+defaults:
+  sport: skoki
+  competition: "Puchar Świata"
+
+events:
+  - { date: 2026-11-20, time: "16:00", city: "Lillehammer", country: NO, kind: "konkurs drużyn mieszanych" }
+  - { date: 2026-11-21, time: "16:50", city: "Lillehammer", country: NO, kind: "konkurs indywidualny" }
+  - { date: 2026-11-22, time: "16:00", city: "Lillehammer", country: NO, kind: "konkurs indywidualny" }
+  - { date: 2026-11-28, time: "16:30", city: "Kuusamo", country: FI, kind: "konkurs indywidualny" }
+  - { date: 2026-11-29, time: "14:20", city: "Kuusamo", country: FI, kind: "konkurs indywidualny" }
+  - { date: 2026-12-05, time: "16:00", city: "Wisła", country: PL, kind: "konkurs indywidualny" }
+  - { date: 2026-12-06, time: "15:40", city: "Wisła", country: PL, kind: "konkurs indywidualny" }
+  - { date: 2026-12-11, time: "16:10", city: "Titisee-Neustadt", country: DE, kind: "konkurs drużynowy" }
+  - { date: 2026-12-12, time: "15:40", city: "Titisee-Neustadt", country: DE, kind: "konkurs indywidualny" }
+  - { date: 2026-12-13, time: "15:30", city: "Titisee-Neustadt", country: DE, kind: "konkurs indywidualny" }
+  - { date: 2026-12-19, time: "16:00", city: "Engelberg", country: CH, kind: "konkurs indywidualny" }
+  - { date: 2026-12-20, time: "16:00", city: "Engelberg", country: CH, kind: "konkurs indywidualny" }
+  - { date: 2026-12-29, time: "16:30", city: "Oberstdorf", country: DE, kind: "konkurs indywidualny", competition: "Turniej Czterech Skoczni" }
+  - { date: 2027-01-01, time: "16:30", city: "Garmisch-Partenkirchen", country: DE, kind: "konkurs indywidualny", competition: "Turniej Czterech Skoczni" }
+  - { date: 2027-01-03, time: "16:30", city: "Innsbruck", country: AT, kind: "konkurs indywidualny", competition: "Turniej Czterech Skoczni" }
+  - { date: 2027-01-06, time: "16:30", city: "Bischofshofen", country: AT, kind: "konkurs indywidualny", competition: "Turniej Czterech Skoczni" }
+  - { date: 2027-01-16, time: null, city: "Zakopane", country: PL, kind: "konkurs drużynowy" }
+  - { date: 2027-01-17, time: null, city: "Zakopane", country: PL, kind: "konkurs indywidualny" }
+  - { date: 2027-01-23, time: null, city: "Sapporo", country: JP, kind: "konkurs drużyn mieszanych" }
+  - { date: 2027-01-23, time: null, city: "Sapporo", country: JP, kind: "konkurs indywidualny" }
+  - { date: 2027-01-24, time: null, city: "Sapporo", country: JP, kind: "konkurs indywidualny" }
+  - { date: 2027-01-29, time: "16:10", city: "Willingen", country: DE, kind: "konkurs drużyn mieszanych" }
+  - { date: 2027-01-30, time: "16:10", city: "Willingen", country: DE, kind: "konkurs indywidualny" }
+  - { date: 2027-01-31, time: "16:05", city: "Willingen", country: DE, kind: "konkurs indywidualny" }
+  - { date: 2027-02-06, time: null, city: "Lake Placid", country: US, kind: "konkurs indywidualny" }
+  - { date: 2027-02-07, time: null, city: "Lake Placid", country: US, kind: "konkurs drużyn mieszanych" }
+  - { date: 2027-02-13, time: null, city: "Lahti", country: FI, kind: "konkurs drużynowy" }
+  - { date: 2027-02-14, time: null, city: "Lahti", country: FI, kind: "konkurs indywidualny" }
+  - { date: 2027-02-20, time: "15:30", city: "Vikersund", country: NO, kind: "loty narciarskie, konkurs indywidualny" }
+  - { date: 2027-02-21, time: "16:15", city: "Vikersund", country: NO, kind: "loty narciarskie, konkurs indywidualny" }
+  - { date: 2027-02-27, time: null, city: "Falun", country: SE, kind: "drużyny mieszane, skocznia normalna", competition: "Mistrzostwa Świata" }
+  - { date: 2027-02-28, time: null, city: "Falun", country: SE, kind: "konkurs indywidualny, skocznia normalna", competition: "Mistrzostwa Świata" }
+  - { date: 2027-03-04, time: null, city: "Falun", country: SE, kind: "konkurs drużynowy, skocznia duża", competition: "Mistrzostwa Świata" }
+  - { date: 2027-03-06, time: null, city: "Falun", country: SE, kind: "konkurs indywidualny, skocznia duża", competition: "Mistrzostwa Świata" }
+  - { date: 2027-03-13, time: null, city: "Oslo", country: NO, kind: "konkurs indywidualny" }
+  - { date: 2027-03-14, time: null, city: "Oslo", country: NO, kind: "konkurs indywidualny" }
+  - { date: 2027-03-19, time: "15:00", city: "Planica", country: SI, kind: "loty narciarskie, konkurs indywidualny" }
+  - { date: 2027-03-20, time: "09:45", city: "Planica", country: SI, kind: "loty narciarskie, konkurs drużynowy" }
+  - { date: 2027-03-21, time: "10:00", city: "Planica", country: SI, kind: "loty narciarskie, konkurs indywidualny" }

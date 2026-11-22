@@ -1,0 +1,13 @@
+# Manuelle Korrekturen. Greifen NACH den Regeln.
+# Schlüssel "id" = Event-ID aus data/events.json.
+# Felder, die gesetzt werden, überschreiben das Ergebnis; "hide: true" blendet aus.
+#
+# Beispiel:
+# - id: skoki-2026-12-05-wisla
+#   channels: ["TVP 1", "TVN"]
+#   time: "16:00"
+#
+# - id: motogp-2026-11-29-walencja
+#   hide: true
+
+overrides: []
