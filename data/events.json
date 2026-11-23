@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T09:24:27+00:00",
+  "generated_at": "2026-11-23T05:24:44+00:00",
   "timezone": "Europe/Warsaw",
   "window_days": 14,
   "sources": {
@@ -9,26 +9,6 @@
     "api_football": "übersprungen: kein API_FOOTBALL_KEY gesetzt"
   },
   "events": [
-    {
-      "id": "skoki-2026-11-22-lillehammer",
-      "sport": "skoki",
-      "competition": "Puchar Świata",
-      "title": "Lillehammer — konkurs indywidualny",
-      "date": "2026-11-22",
-      "start": "2026-11-22T16:00:00+01:00",
-      "venue": null,
-      "country": false,
-      "poland": false,
-      "channels": [
-        "Eurosport 1",
-        "TVN"
-      ],
-      "online": [
-        "Player",
-        "HBO Max"
-      ],
-      "note": null
-    },
     {
       "id": "motogp-2026-11-28-walencja",
       "sport": "motogp",
